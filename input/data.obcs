@@ -1,0 +1,33 @@
+# ***************
+# Open boundaries
+# ***************
+ &OBCS_PARM01
+ OB_Iwest  =   200*1,
+ OB_Ieast  =   200*-1,
+ 
+ useOBCSprescribe=.TRUE.,
+ useOBCSbalance=.TRUE.,
+# useOrlanskiWest=.TRUE.,
+# useOBCSsponge = .TRUE.,
+
+ OBEuFile='OBEU.bin',
+ OBEtFile='OBET.bin',
+ OBEsFile='OBES.bin',
+ 
+# OBWtFile='OBWT.bin',
+# OBWsFile='OBWS.bin',
+ 
+ OBCS_balanceFacE = 0.,
+ OBCS_balanceFacW = 1000.,
+
+# OBCS_monitorFreq= 3600.,
+# OBCS_monSelect = 3, 
+&
+
+&OBCS_PARM03
+#  Urelaxobcsinner=86400.E0,
+#  Urelaxobcsbound=432000.E0,
+#  spongeThickness=15,
+ &
+
+

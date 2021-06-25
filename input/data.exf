@@ -1,0 +1,44 @@
+# *********************
+# External Forcing Data
+# *********************
+ &EXF_NML_01
+#
+ useExfCheckRange  = .FALSE.,
+ repeatPeriod      = 1.0,
+ exf_iprec	   = 64,
+#
+ &
+
+# *********************
+ &EXF_NML_02
+#
+  precipfile        = ' ',
+#'prate.labsea1979',
+  lwfluxfile        = ' ',
+  swfluxfile        = ' ',
+  lwdownfile        = ' ',
+#'flo.labsea1979',
+  swdownfile        = ' ',
+#'fsh.labsea1979',
+  runoffFile        = ' '
+  climsstfile       = ' ',
+ climsssfile       = ' ',
+#'SSS_monthly.labsea1979',
+#
+ &
+
+# *********************
+ &EXF_NML_03
+ &
+
+# *********************
+# old open64 compiler (4.2.1) cannot skip this namelist to read in the next one;
+# comment out this namelist (not read).
+#&EXF_NML_04
+#&
+
+# *********************
+ &EXF_NML_OBCS
+ useOBCSYearlyFields= .FALSE.,
+ &
+~      

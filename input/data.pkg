@@ -1,0 +1,12 @@
+# Packages
+ &PACKAGES
+# useRBCS=.TRUE.,
+ useOBCS=.TRUE.,
+ useshelfice =.TRUE.,
+ useIcefront=.TRUE.,
+ useDiagnostics=.TRUE.,
+# useMNC =.TRUE.,
+  useEXF = .TRUE.,
+# usePTRACERS=.TRUE.,
+ useseaice = .TRUE.,
+ &

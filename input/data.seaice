@@ -1,0 +1,12 @@
+# SEAICE parameters
+ &SEAICE_PARM01
+ SEAIcewriteState =.TRUE.,
+ SEAICE_initialHEFF= 0.5,
+ SEAICE_EPS =1.E-8,
+ SEAICEuseDYNAMICS =.FALSE.,
+# SEAICE_no_slip = .TRUE.,
+ &
+
+ &SEAICE_PARM03
+ &
+~

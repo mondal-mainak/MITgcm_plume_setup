@@ -1,0 +1,20 @@
+ &RBCS_PARM01
+ tauRelaxT         = 10.,
+ tauRelaxS         = 10.,
+ relaxMaskFile(1)  = 'sponge.bin',
+ relaxMaskFile(2)  = 'sponge.bin',
+ relaxTFile        = 'temp.bin',
+ relaxSFile        = 'salt.bin',
+ useRBCtemp        = .TRUE.,
+ useRBCsalt        = .TRUE.,
+ rbcsIniter        = 0,
+ rbcsForcingPeriod = 10.,
+ rbcsForcingCycle  = 10.,
+ &
+
+ &RBCS_PARM02
+#  useRBCptrnum     (1) = .FALSE.,
+#  tauRelaxPTR      (1) = 1.,
+#  relaxPtracerFile (1) = ' ',
+ &
+

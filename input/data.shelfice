@@ -1,0 +1,19 @@
+# *******************************
+# Parameter for SHELFICE package
+# ******************************
+ &SHELFICE_PARM01
+ SHELFICEboundaryLayer = .FALSE.,
+ SHELFICEloadAnomalyFile = 'phi0surf.bin',
+ SHELFICEtopoFile   = 'icetopo1.bin',
+# SHELFICEconserve = .TRUE.,
+# no_slip_shelfice = .TRUE.,
+ useISOMIPTD = .FALSE.,
+ SHELFICEuseGammaFrict = .TRUE.,
+ SHELFICEadvDiffHeatFlux = .TRUE.,
+ no_slip_shelfice = .FALSE.,
+ SHELFICEwriteState = .TRUE.,
+ SHELFICEconserve = .TRUE.,
+ SHELFICEDragQuadratic = 9.7e-3,
+ shiCdrag = 9.7e-3,
+ SHELFICEselectDragQuadr = 2,
+ &
